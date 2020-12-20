@@ -6,7 +6,7 @@
 
     <groupId>works.weave.microservices-demo</groupId>
     <artifactId>carts</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <name>carts</name>
     <description>Carts service for microservices-demo application</description>
@@ -134,16 +134,6 @@
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>4.2.0</version>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jxr-plugin</artifactId>
-                <version>2.1</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
-          </plugin>
         </plugins>
     </build>
 
