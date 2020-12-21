@@ -6,7 +6,7 @@
 
     <groupId>works.weave.microservices-demo</groupId>
     <artifactId>carts</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>carts</name>
     <description>Carts service for microservices-demo application</description>
@@ -24,6 +24,10 @@
     </properties>
 
     <dependencies>
+        <dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-rest</artifactId>
